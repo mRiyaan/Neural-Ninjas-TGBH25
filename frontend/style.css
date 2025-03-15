@@ -1,0 +1,47 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    background: white;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+/* Buttons */
+button {
+    background-color: #ff4b5c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #d7384e;
+}
+
+/* Warning Message */
+#warnings {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Exam Status */
+#exam-status {
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+}
